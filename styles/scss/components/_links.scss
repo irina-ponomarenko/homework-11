@@ -1,0 +1,10 @@
+html, body{
+  a{
+    font-size: $size-min;
+    font-family: $font-monserat;
+    &:hover{
+      text-decoration: none;
+      color: $color-white;
+    }
+  }
+}

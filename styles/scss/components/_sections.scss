@@ -1,0 +1,40 @@
+html,body{
+  font-size: $size-normal;
+  font-family: $font-monserat;
+  line-height: 22px;
+}
+section{
+  width: 100%;
+}
+.container{
+  max-width:1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+.container-fluid{
+  height: 100vh;
+}
+.items{
+  .container-fluid{
+    height: auto;
+    margin: 60px 0 60px 0;
+    border-top: 2px solid $color-grey-white;
+    border-bottom: 2px solid $color-grey-white;
+  }
+}
+.wrapper-colums{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.lookbook{
+  .container-fluid{
+    height: auto;
+  }
+}
+.wrapper-img-overlay{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 126px;
+}

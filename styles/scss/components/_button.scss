@@ -1,0 +1,15 @@
+.btn-slider{
+  padding: 23px 30px;
+  background: transparent;
+  border: 1px solid $color-grey;
+  font-size: 16px;
+  text-transform: uppercase;
+  position: absolute;
+  cursor: pointer;
+  bottom: 10%;
+  right: 15%;
+  &:hover{
+    background-color: $color-light-grey;
+    color: $color-white;
+  }
+}

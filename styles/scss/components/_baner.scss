@@ -1,0 +1,43 @@
+.wrapper-footer-baner{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30px;
+  margin-bottom: 52px;
+  &:last-child{
+    margin-right: 0;
+  }
+}
+.footer-baner-black{
+  background-color: $color-licht-black;
+  text-align: center;
+  color: $color-white;
+  text-transform: uppercase;
+  font-size: $size-big;
+  width: 100%;
+  padding: 65px 0 65px 0;
+  margin-right: 30px;
+  h3{
+    font-weight: bold;
+  }
+}
+.footer-baner{
+  width: 100%;
+  text-align: center;
+  background-color: $color-green-blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-footer{
+  display: flex;
+  li{
+    margin-right: 60px;
+    &:last-child{
+      margin-right: 0;
+    }
+    a{
+      font-size: $size-big;
+      color: $color-white;
+    }
+  }
+}
