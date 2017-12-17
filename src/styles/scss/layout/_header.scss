@@ -20,7 +20,7 @@
   }
 }
 .last-header{
-  background-image: url("../../../images/slider.jpg");
+  background-image: url("../images/slider.jpg");
   background-repeat: no-repeat;
   height: 100vh;
   background-size: cover;
@@ -34,13 +34,12 @@
 }
 .registration{
   a{
-    margin-right: 37px;
+    padding: 24px 37px 24px 0;
     color: $color-grey;
   }
 }
 .empty{
   padding: 20px 24px;
-  background-color: $color-green-blue;
   .fa-shopping-cart{
     margin-right: 24px;
     color: $color-white;

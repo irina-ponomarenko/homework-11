@@ -1,0 +1,134 @@
+@media screen and (min-width:1170px) and (max-width:1219px) {
+  .collapse{
+    flex-direction: column;
+}
+  .form-inline{
+    margin-left: 0;
+    width: 205px;
+  }
+  .bottom-header-nav{
+    align-items: flex-start;
+  }
+}
+@media screen and (min-width:360px) and (max-width:1170px) {
+  .collapse {
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .navbar-nav {
+    margin-right: 0 !important;
+    display: flex;
+    flex-direction: column;
+    li{
+      width: 100%;
+      padding-left: 10px;
+      line-height: 30px;
+      background-color: rgba(248, 248, 248, 0.4);
+    }
+  }
+  .menu-drop{
+    background: none !important;
+    h2{
+      color: $color-light-grey;
+    }
+    li{
+      background: none !important;
+    }
+  }
+  .drop-down-menu{
+    z-index: 100;
+  }
+  .navbar-light{
+    .navbar-toggler{
+      display: block;
+      background-color: $color-grey-white;
+    }
+  }
+  .form-inline{
+    margin-left: 0;
+    background-color: $color-card;
+  }
+  .bottom-header-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
+@media screen and (min-width:360px) and (max-width:1098px) {
+  .wrapper-img-overlay{
+    flex-direction: column;
+    align-items: center;
+  }
+.card-look{
+  width: auto !important;
+  margin-bottom: 30px;
+  margin-right: 0;
+}
+}
+@media screen and (min-width:360px) and (max-width:840px) {
+  .wrapper-top-list{
+    flex-wrap: wrap;
+  }
+  .wrapper-footer-baner{
+    flex-wrap: wrap;
+  }
+  .footer-baner{
+    margin: 20px 30px 0 30px;
+    padding: 65px 0 65px 0;
+  }
+  .footer-baner-black{
+    margin: 0 30px 0 30px;
+  }
+}
+@media screen and (min-width:360px) and (max-width: 421px) {
+  .casuals{
+    margin-bottom: 20px;
+  }
+  .bottom-header-nav{
+    margin: 0;
+  }
+  .wrapper-dropdown{
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width:360px) and (max-width:375px) {
+  .info-bottom-footer{
+    p{
+      margin-right: 0;
+    }
+  }
+  .info {
+    margin: 30px 20px 30px 20px !important;
+  }
+  .wrapper-colums{
+    flex-wrap: wrap;
+  }
+  .card-columns-1{
+    margin-right: 0;
+  }
+  .card-body-look{
+    h4{
+      font-size: 18px !important;
+    }
+    p{
+      font-size: 12px !important;
+      line-height: 20px !important;
+    }
+  }
+  .drop-down-menu{
+    left: -5px;
+  }
+  .casuals{
+    margin-bottom: 20px;
+  }
+  .bottom-header-nav{
+    margin: 0;
+  }
+  .wrapper-dropdown{
+    flex-wrap: wrap;
+  }
+
+}

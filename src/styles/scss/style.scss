@@ -1,8 +1,7 @@
-@import "compass/css3";
-@import "compass/reset";
 
-@import "../../node_modules/bootstrap/scss/bootstrap";
-@import "../../node_modules/font-awesome/scss/font-awesome";
+
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "../../../node_modules/font-awesome/scss/font-awesome";
 
 @import "base/variables";
 @import "base/mixins";
@@ -16,8 +15,7 @@
 @import "components/nav-item";
 @import "components/list";
 @import "components/baner";
+@import "components/media";
 
 @import "layout/header";
 @import "layout/footer";
-
-
