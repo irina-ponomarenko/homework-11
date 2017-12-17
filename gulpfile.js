@@ -87,7 +87,7 @@ gulp.task('scripts', function() {
 
 
 
-gulp.task('build',['copy:html', 'minify:img', 'scripts'], function () {});
+gulp.task('build',['copy:html', 'minify:img', 'scripts','sass'], function () {});
 
 gulp.task('watch', function () {
     gulp.watch([
