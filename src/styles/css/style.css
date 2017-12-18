@@ -12217,7 +12217,7 @@ html a:hover, body a:hover {
 }
 
 .last-header {
-  background-image: url("../images/slider.jpg");
+  background-image: url("../../images/slider.jpg");
   background-repeat: no-repeat;
   height: 100vh;
   background-size: cover;
