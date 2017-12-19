@@ -17,7 +17,7 @@
     "gulp": "^3.9.1",
     "gulp-rename": "^1.2.2",
     "gulp-scss": "^1.4.0",
-    "jquery": "^3.2.1",
+    "jquery": "^3.1.1",
     "popper.js": "^1.12.9",
     "tether": "^1.4.3"
   },

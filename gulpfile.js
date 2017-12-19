@@ -26,7 +26,7 @@ var config = {
     'js': {
       'src': [
         './node_modules/jquery/dist/jquery.js',
-        './node_modules/tether.js/dist/tether.min.js',
+        './node_modules/tether/dist/tether.min.js',
         './node_modules/bootstrap/dist/js/bootstrap.min.js',
         './src/js/*.js'
       ],
@@ -74,15 +74,12 @@ gulp.task('sass', function() {
 });
 
 gulp.task('scripts', function() {
-    return gulp.src([
-        './node_modules/jquery/dist/jquery.js',
-        './node_modules/tether.js/dist/tether.min.js',
-        './node_modules/bootstrap/dist/js/bootstrap.min.js',
-        './src/js/*.js'
-    ])
+    return gulp.src(config.js.src)
         .pipe(concat('my.js'))
-        .pipe(uglify())
-        .pipe(gulp.dest('dist/js'));
+        .pipe(uglify().on('error', function (e) {
+            console.log(e);
+        }))
+        .pipe(gulp.dest(config.js.dest));
 });
 
 
