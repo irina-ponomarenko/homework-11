@@ -71,7 +71,7 @@ gulp.task('sass', function() {
         .pipe(browserSync.reload({
             stream: true
         }));
-});
+}); kyky
 
 gulp.task('scripts', function() {
     return gulp.src(config.js.src)
